@@ -45,20 +45,17 @@ body{
 }
 
 header.primary{
-  background-color: #3b638b;
+  background-color: #fe1426;
   text-align: center;
   color: #ffffff;
   text-shadow: 2px 2px #000;
-  /* Longform */
   padding-top: 40px;
   padding-right: 40px;
   padding-bottom: 20px;
   padding-left: 40px;
   
-  /* Shorthand Top/Bottom, Left/Right */
   padding: 20px 40px;
   
-  /* Shorthand  T,R,B,L */
   padding: 40px 40px 20px 40px;
   
 background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%239C92AC' fill-opacity='0.25'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -77,7 +74,6 @@ header.primary h1 a{
 
 header.primary h2{
   font-size: 2rem;
-  /* Top | Left/Right | Bottom */
   margin: 20px auto 40px;
 }
 
@@ -124,7 +120,7 @@ header.primary nav ul li a:hover, header.primary nav ul li a:active{
 }
 
 #intro h2{
-  color: #3b638b;
+  color: #fe1426;
 }
 
 #content{
@@ -163,11 +159,10 @@ padding-bottom: 2.6rem;
 }
 
 .post a:link,.post a:visited{
-  color: #3b638b;
+  color: #fe1426;
 }
-/* Attribute Selector */
 aside[role="complementary"]{
-  background-color: #172635;
+  background-color: #ca1220;
   color: #ffffff;
   padding: 2.5rem;
 }
@@ -198,7 +193,7 @@ aside article footer{
 
 
 footer#colophon{
-  background-color: #3b638b;
+  background-color: #fe1426;
   background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%239C92AC' fill-opacity='0.25'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
@@ -212,12 +207,12 @@ footer#colophon{
 }
 
 #additional-elements h2{
-color: #3b638b;
+color: #fe1426;
 border-bottom: 3px double #c0c0c0;
 }
 
 #additional-elements a:link, #additional-elements a:visited{
-  color: #3b638b;
+  color: #fe1426;
 }
 
 #additional-elements a:visited, #additional-elements a:active{
@@ -225,10 +220,80 @@ border-bottom: 3px double #c0c0c0;
 }
 
 #additional-elements h3{
-  border-left: 5px solid #3b638b;
+  border-left: 5px solid #fe1426;
   padding: 10px 10px;
 }
 
+table{
+  width: 100%;
+  border: 1px solid #c0c0c0;
+  border-collapse: collapse;
+}
+
+table caption{
+  color: #fe1426;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+table tr:nth-child(){
+  
+}
+
+table th{
+  background-color: #ce1220;
+  color: #ffffff;
+  width: 33%;
+  padding: 10px;
+}
+
+table td {
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+#additional-elements ol{
+  list-style-type: upper-roman;
+}
+
+#additional-elements ul ul{
+  list-style-type: square;
+}
+
+
+#additional-elements dt{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#additional-elements dd{
+  margin: 0;
+}
+
+#additional-elements dl{
+  line-height: 1.5;
+}
+
+dd + dt{
+  margin-top: 1.4rem;
+}
+
+#additional-elements blockquote{
+  background: rgba(0,0,0,.15);
+  padding: 40px 60px;
+  border: 5px double grey;
+  border-radius: 16px;
+  font-size: 1.2em;
+}
+
+#additional-elements cite{
+  display: block;
+  font-size: .6em;
+  text-align: right;
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
 
 @media screen and (max-width:690px){
   
