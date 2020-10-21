@@ -40,7 +40,7 @@ img{
 }
 
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'DejaVu Sans Mono', monospace;
   margin: 0;
 }
 
@@ -277,6 +277,19 @@ table td {
 
 dd + dt{
   margin-top: 1.4rem;
+}
+
+#additional-elements ul {
+  list-style: none;
+}
+
+#additional-elements ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em;
 }
 
 #additional-elements blockquote{
