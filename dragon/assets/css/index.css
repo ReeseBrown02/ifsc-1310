@@ -21,6 +21,7 @@ body{
 .f1{
     color: rgb(211, 25, 25);
     padding-top: 6px;
+    text-align: center;
 }
 
 .headerSecond{
@@ -36,6 +37,7 @@ body{
     display: inline-block;
     margin-top: 3px;
     vertical-align: top;
+    text-align: center;
 }
 
 #logo2{
@@ -43,6 +45,7 @@ body{
     height: 40px; 
     display: inline-block; 
     margin-top: 4px;
+    text-align: center;
 }
 
 .banner{
@@ -83,16 +86,19 @@ body{
 .navbar{
     background-color: black;
     width: 100%;
+    color: white;
 }
 
 .nav{
     margin-top: 0;
     margin-bottom: 0;
+    color: white;
 }
 
 .nav li{
     display: inline-block;
     margin-left: 1vw;
+    color: white;
 }
 
 .nav-item{
@@ -179,7 +185,7 @@ body{
 
 .buttons{
     text-decoration: none; 
-    color: black;
+    color: white;
     text-align: center;
 }
 
@@ -190,6 +196,7 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    color: white;
 }
 
 .headline{
